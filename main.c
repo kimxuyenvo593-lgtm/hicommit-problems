@@ -1,6 +1,7 @@
 #include <stdio.h>
-  }
+  
 int main() 
+{
   int n;
   printf("\nnhap n");
   if (n%2 == 0)
