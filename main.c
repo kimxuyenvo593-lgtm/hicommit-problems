@@ -5,18 +5,18 @@ int main() {
   scanf("%d", &day);
   switch(day){
     case 1:
-      printf("XEP-LOAI-XUAT-SAC");
+      printf("XEP_LOAI_XUAT_SAC");
       break;
     case 2:
-      printf("XEP-LOAI-GIOI");
+      printf("XEP_LOAI_GIOI");
       break;
-    case 3:("XEP-LOAI-KHA");
+    case 3:("XEP_LOAI_KHA");
       break;
     case 4:
-      printf("XEP-LOAI-TRUNG-BINH");
+      printf("XEP_LOAI_TRUNG_BINH");
       break;
     defaut:
-      printf("KHONG-HOP-LE");
+      printf("KHONG_HOP_LE");
   }
   return 0;
 }
