@@ -11,6 +11,7 @@ int main() {
   else if (dtb >= 7.0){
   }
   else {
+    printf("KHONG_DAT");
   }
   if (drl >= 90){
   }
@@ -19,6 +20,7 @@ int main() {
   else if (drl >= 70){
   }
   else{
+    printf("KHONG_DAT");
   }
   if (dtb >= 9.0 && drl >= 90){
     printf("HOC_BONG_XUAT_SAC\n");
