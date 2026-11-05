@@ -13,7 +13,7 @@ int main() {
   else if (dtb >= 7.0){
     printf("Hoc luc :KHA\n");
   }
-  else (dtb < 7.0){
+  else {
     printf("KHONG_DAT\n");
   }
   
