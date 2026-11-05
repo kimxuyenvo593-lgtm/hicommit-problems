@@ -5,14 +5,18 @@ int main() {
   scanf("%f" , &dtb);
   scanf("%f", &drl);
   if (dtb >= 9.0){
+    
   }
   else if (dtb >= 8.0){
+    
   }
   else if (dtb >= 7.0){
+    
   }
   else {
     printf("KHONG_DAT");
   }
+  
   if (drl >= 90){
   }
   else if (drl >= 80){
@@ -32,6 +36,7 @@ int main() {
             printf("HOC_BONG_KHA\n");
   }
   else {
+    printf("KHONG_DAT");
   }
   
   return 0;
