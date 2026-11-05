@@ -30,7 +30,6 @@ int main() {
             printf("HOC_BONG_KHA\n");
   }
   else {
-            printf("KHONG_DAT");
   }
   
   return 0;
