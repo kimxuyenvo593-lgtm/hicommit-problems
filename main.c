@@ -4,28 +4,7 @@ int main() {
   float dtb, drl;
   scanf("%f" , &dtb);
   scanf("%f", &drl);
-  if (dtb >= 9.0){
-    
-  }
-  else if (dtb >= 8.0){
-    
-  }
-  else if (dtb >= 7.0){
-    
-  }
-  else {
-    printf("KHONG_DAT");
-  }
   
-  if (drl >= 90){
-  }
-  else if (drl >= 80){
-  }  
-  else if (drl >= 70){
-  }
-  else{
-    printf("KHONG_DAT");
-  }
   if (dtb >= 9.0 && drl >= 90){
     printf("HOC_BONG_XUAT_SAC\n");
   }
