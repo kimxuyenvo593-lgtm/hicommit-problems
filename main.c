@@ -5,28 +5,20 @@ int main() {
   scanf("%f" , &dtb);
   scanf("%f", &drl);
   if (dtb >= 9.0){
-    printf("Hoc luc :XUAT_SAC\n");
   }
   else if (dtb >= 8.0){
-    printf("Hoc luc :GIOI\n");
   }
   else if (dtb >= 7.0){
-    printf("Hoc luc :KHA\n");
   }
   else {
-    printf("KHONG_DAT\n");
   }
   if (drl >= 90){
-    printf("Ren luyen :XUAC_SAC\n");
   }
   else if (drl >= 80){
-    printf("Ren luyen :GIOI\n");
   }  
   else if (drl >= 70){
-    printf("Ren luyen :KHA\n");
   }
   else{
-    printf("KHONG_DAT\n");
   }
   if (dtb >= 9.0 && drl >= 90){
     printf("HOC_BONG_XUAT_SAC\n");
